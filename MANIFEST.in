@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include erpnext_logo_entegrasyon *.css
+recursive-include erpnext_logo_entegrasyon *.csv
+recursive-include erpnext_logo_entegrasyon *.html
+recursive-include erpnext_logo_entegrasyon *.ico
+recursive-include erpnext_logo_entegrasyon *.js
+recursive-include erpnext_logo_entegrasyon *.json
+recursive-include erpnext_logo_entegrasyon *.md
+recursive-include erpnext_logo_entegrasyon *.png
+recursive-include erpnext_logo_entegrasyon *.py
+recursive-include erpnext_logo_entegrasyon *.svg
+recursive-include erpnext_logo_entegrasyon *.txt
+recursive-exclude erpnext_logo_entegrasyon *.pyc
